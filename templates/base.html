@@ -20,6 +20,9 @@
             <li><a href="{{ url_for('speech_to_text_page') }}">Speech To Text</a></li>
             <li><a href="{{ url_for('text_to_speech_page') }}">Text To Speech</a></li>
             <li><a href="{{ url_for('create_broadcast_schedule_page') }}">Tạo lịch phát sóng</a></li>
+            {% if session.username %}
+                <li><a href="{{ url_for('logout') }}">Đăng xuất</a></li>
+            {% endif %}
         </ul>
         <div class="burger">
             <div class="line1"></div>

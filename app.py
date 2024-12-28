@@ -1,4 +1,4 @@
-from flask import Flask, flash, request, render_template, redirect, url_for, send_file, send_from_directory, jsonify
+from flask import Flask, flash, request, render_template, redirect, url_for, send_file, send_from_directory, jsonify, session
 import os
 import json
 from text_to_speech import text_to_speech_viettel, get_voices
@@ -9,14 +9,16 @@ from datetime import datetime, timedelta
 import pandas as pd  
 from openpyxl.styles import NamedStyle
 from werkzeug.utils import secure_filename
+from dotenv import load_dotenv
+from functools import wraps
+
+load_dotenv()  # Tải biến môi trường từ file .env
 
 app = Flask(__name__)
-app.secret_key = '3d6f45a5fc12445dbac2f59c3b6c7cb1' 
-
+app.secret_key = 'your_secret_key'  # Thay đổi secret key của bạn
 
 app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(__file__), 'uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-
 
 ALLOWED_EXTENSIONS = {'mp3', 'wav', 'm4a'}
 CONFIG_FILE = 'config.json'
@@ -36,6 +38,37 @@ def write_token(token):
     with open(CONFIG_FILE, 'w') as f:
         json.dump({"token": token}, f)
 
+# Decorator để kiểm tra đăng nhập
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'username' not in session:
+            flash('Bạn cần đăng nhập để truy cập trang này.', 'danger')
+            return redirect(url_for('login'))  # Chuyển hướng đến trang đăng nhập
+        return f(*args, **kwargs)
+    return decorated_function
+
+# Route cho trang đăng nhập
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        
+        # Kiểm tra thông tin đăng nhập
+        if username == os.getenv('USERNAME') and password == os.getenv('PASSWORD'):
+            session['username'] = username
+            flash('Đăng nhập thành công!', 'success')
+            return redirect(url_for('home'))  # Chuyển hướng về trang chính
+        else:
+            flash('Tên người dùng hoặc mật khẩu không đúng!', 'danger')
+    
+    return render_template('login.html')
+
+# Route cho trang chính
+@app.route('/')
+def home():
+    return render_template('home.html')
 
 @app.route('/config', methods=['GET', 'POST'])
 def config_page():
@@ -50,12 +83,8 @@ def config_page():
 
     return render_template('config.html', token=current_token)
 
-
-@app.route('/')
-def home():
-    return render_template('home.html')
-
 @app.route('/speech-to-text', methods=['GET', 'POST'])
+@login_required  # Bảo vệ route này
 def speech_to_text_page():
     result_text = None
     if request.method == 'POST':
@@ -81,6 +110,7 @@ def speech_to_text_page():
     return render_template('speech_to_text.html', result=result_text, history=history)
 
 @app.route('/text-to-speech', methods=['GET', 'POST'])
+@login_required  # Bảo vệ route này
 def text_to_speech_page():
     if request.method == 'POST':
         if 'text' not in request.form:
@@ -121,6 +151,7 @@ def download_file(filename):
     except Exception as e:
         return jsonify({"success": False, "message": str(e)}), 500
 @app.route('/create_broadcast_schedule', methods=['GET', 'POST'])
+@login_required  # Bảo vệ route này
 def create_broadcast_schedule_page():
     if request.method == 'POST':
         date_input = request.form['date_input']
@@ -145,6 +176,12 @@ def get_available_files():
     files = [f for f in os.listdir(app.config['UPLOAD_FOLDER']) if f.startswith('lps_') and f.endswith('.xlsx')]
     files.sort(reverse=True)
     return files[:10]  # Trả về tối đa 10 file mới nhất
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)  # Xóa thông tin đăng nhập
+    flash('Bạn đã đăng xuất thành công!', 'success')
+    return redirect(url_for('login'))  # Chuyển hướng về trang đăng nhập
 
 if __name__ == '__main__':
     app.run(debug=True)

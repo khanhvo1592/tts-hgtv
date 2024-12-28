@@ -107,17 +107,23 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 50px auto;
+    padding: 20px;
     background-color: #fff;
-    padding: -20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #333;
     text-align: center;
-    padding-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    width: 100%;
 }
 
 ul {
@@ -394,10 +400,6 @@ input[type="submit"]:hover {
         max-width: 250px;
     }
 }
-body {
-    background-color: #f8f9fa;
-    font-family: 'Roboto', sans-serif, Arial;
-}
 
 .container {
     background-color: white;
@@ -461,4 +463,14 @@ label {
 
 .form-group:last-child {
     margin-right: 0; /* Không thêm khoảng cách cho phần tử cuối cùng */
+}
+
+/* Điều chỉnh kiểu cho input mật khẩu */
+input[type="password"] {
+    width: 100%; /* Đảm bảo chiều rộng 100% */
+    padding: 8px; /* Giảm padding để trường nhập nhỏ hơn */
+    font-size: 14px; /* Giảm kích thước font nếu cần */
+    border: 1px solid #ced4da; /* Đảm bảo border đồng nhất */
+    border-radius: 4px; /* Độ bo góc */
+    transition: border-color 0.3s ease; /* Hiệu ứng chuyển tiếp */
 }
