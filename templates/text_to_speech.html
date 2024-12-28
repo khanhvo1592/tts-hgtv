@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}VoiceText - Văn bản thành Giọng nói{% endblock %}
+
+{% block content %}
+        <h1>Chuyển đổi Văn bản thành Giọng nói</h1>
+        <form method="post">
+            <textarea name="text" rows="4" cols="50" required class="form-control" placeholder="Nhập văn bản ở đây..."></textarea>
+            <br>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="voice">Giọng đọc:</label>
+                    <select name="voice" id="voice" class="form-control">
+                        {% for voice in voices %}
+                        <option value="{{ voice.code }}">{{ voice.name }} ({{ voice.description }})</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="speed">Tốc độ đọc:</label>
+                    <input type="number" name="speed" id="speed" min="0.5" max="2" step="0.1" value="1" class="form-control">
+                </div>
+            </div>
+            <br>
+            <input type="submit" value="Chuyển đổi" class="btn-primary">
+        </form>
+
+        <div class="history">
+            <h2>Lịch sử:</h2>
+            {% if history %}
+                <ul>
+                {% for item in history %}
+                    <li>
+                        <span class="input truncate" title="{{ item.input }}">{{ item.input }}</span>
+                        <audio controls>
+                            <source src="{{ url_for('serve_audio', filename=item.output) }}" type="audio/mpeg">
+                            Trình duyệt của bạn không hỗ trợ phát audio.
+                        </audio>
+                        <a href="{{ url_for('download_file', filename=item.output) }}" download>Tải xuống</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>Chưa có lịch sử chuyển đổi.</p>
+            {% endif %}
+        </div>
+{% endblock %}

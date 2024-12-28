@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}HGTVDigital - Trang chủ{% endblock %}
+
+{% block content %}
+  
+    <section class="cta slide-in">
+        <h2>Bắt đầu sử dụng ngay!</h2>
+        <div class="button-group">
+            <a href="{{ url_for('speech_to_text_page') }}" class="button">Giọng nói thành Văn bản</a>
+            <a href="{{ url_for('text_to_speech_page') }}" class="button">Văn bản thành Giọng nói</a>
+            <a href="{{ url_for('create_broadcast_schedule_page') }}" class="button">Tạo lịch phát sóng</a>
+        </div>
+    </section>
+        <section class="features slide-in">
+            <h2>Tính năng chính</h2>
+            <ul>
+                <li>Chuyển đổi giọng nói thành văn bản</li>
+                <li>Chuyển đổi văn bản thành giọng nói</li>
+            </ul>
+        </section>
+
+        <section class="instructions slide-in">
+            <h2>Hướng dẫn sử dụng</h2>
+            <h3>Chuyển đổi Giọng nói thành Văn bản:</h3>
+            <ol>
+                <li>Nhấp vào "Giọng nói thành Văn bản" trên thanh điều hướng.</li>
+                <li>Tải lên file âm thanh của bạn (định dạng WAV).</li>
+                <li>Nhấn nút "Chuyển đổi" và đợi kết quả.</li>
+                <li>Xem và sao chép văn bản đã chuyển đổi.</li>
+            </ol>
+
+            <h3>Chuyển đổi Văn bản thành Giọng nói:</h3>
+            <ol>
+                <li>Nhấp vào "Văn bản thành Giọng nói" trên thanh điều hướng.</li>
+                <li>Nhập văn bản bạn muốn chuyển đổi.</li>
+                <li>Chọn giọng đọc mong muốn.</li>
+                <li>Nhấn nút "Chuyển đổi" và đợi kết quả.</li>
+                <li>Nghe file âm thanh đã được tạo ra.</li>
+            </ol>
+        </section>
+
+    {% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}VoiceText - Giọng nói thành Văn bản{% endblock %}
+
+{% block content %}
+<h1>Chuyển đổi Giọng nói thành Văn bản</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".mp3,.wav,.m4a">
+            <input type="submit" value="Chuyển đổi">
+        </form>
+        
+        {% if result %}
+        <div class="result">
+            <h2>Kết quả:</h2>
+            <p>Độ dài: {{ result|length }} ký tự</p>
+            <pre class="wrapped-text">{{ result }}</pre>
+        </div>
+        {% endif %}
+
+        <div class="history">
+            <h2>Lịch sử:</h2>
+            <ul >
+            {% for item in history %}
+                <li>
+                    <pre class="input" title="{{ item.input }}">{{ item.input }}</pre>
+                    <p class="wrapped-text" class="output" title="{{ item.output }}">{{ item.output }} </p>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endblock %}

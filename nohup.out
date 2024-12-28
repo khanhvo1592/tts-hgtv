@@ -1,0 +1,559 @@
+[2024-09-06 10:11:33 +0700] [5700] [INFO] Starting gunicorn 20.1.0
+[2024-09-06 10:11:33 +0700] [5700] [INFO] Listening at: unix:/home/khanhvo/speech_and_text/myproject.sock (5700)
+[2024-09-06 10:11:33 +0700] [5700] [INFO] Using worker: sync
+[2024-09-06 10:11:33 +0700] [5701] [INFO] Booting worker with pid: 5701
+[2024-09-06 10:11:33 +0700] [5702] [INFO] Booting worker with pid: 5702
+[2024-09-06 10:11:33 +0700] [5703] [INFO] Booting worker with pid: 5703
+[2024-09-06 10:11:42 +0700] [5700] [INFO] Handling signal: hup
+[2024-09-06 10:11:42 +0700] [5700] [INFO] Hang up: Master
+[2024-09-06 10:11:42 +0700] [5700] [WARNING] Worker with pid 5702 was terminated due to signal 1
+[2024-09-06 10:11:42 +0700] [5700] [WARNING] Worker with pid 5701 was terminated due to signal 1
+[2024-09-06 10:11:42 +0700] [5700] [WARNING] Worker with pid 5703 was terminated due to signal 1
+[2024-09-06 10:11:42 +0700] [5705] [INFO] Booting worker with pid: 5705
+[2024-09-06 10:11:42 +0700] [5706] [INFO] Booting worker with pid: 5706
+[2024-09-06 10:11:42 +0700] [5707] [INFO] Booting worker with pid: 5707
+Mã trạng thái: 200
+Phản hồi đầy đủ từ API:
+{"code":200,"message":"OK","response":{"result":[{"transcript":"Theo dự báo. Bảo ngày 6/9 của các tổ chức quốc tế và quan sát trên ảnh may vệ tên Hồng ngoại. Có thể thấy, mắt siêu bảo số 3 Ag vẫn đang cực kỳ sắc nét với đối lưu xung quan tâm, bảo diễn ra vô cùng mạnh mẽ. Theo Trung tâm Cảnh báo Bảo Liên Hợp Mỹ (TC).","word_alignment":[{"beg":0.08,"confidence":0.36421,"end":0.16,"word":"theo"},{"beg":0.24,"confidence":0.36421,"end":0.32,"word":"dự"},{"beg":0.4,"confidence":0.36421,"end":0.48,"word":"báo"},{"beg":0.6,"confidence":0.36421,"end":0.68,"word":"bảo"},{"beg":0.8,"confidence":0.36421,"end":0.88,"word":"ngày"},{"beg":1.0,"confidence":0.36421,"end":1.08,"word":"mùng"},{"beg":1.2,"confidence":0.36421,"end":1.28,"word":"sáu"},{"beg":1.4,"confidence":0.36421,"end":1.48,"word":"tháng"},{"beg":1.6,"confidence":0.36421,"end":1.68,"word":"chín"},{"beg":1.8,"confidence":0.36421,"end":1.88,"word":"của"},{"beg":1.96,"confidence":0.36421,"end":2.04,"word":"các"},{"beg":2.12,"confidence":0.36421,"end":2.2,"word":"tổ"},{"beg":2.28,"confidence":0.36421,"end":2.36,"word":"chức"},{"beg":2.56,"confidence":0.36421,"end":2.64,"word":"quốc"},{"beg":2.68,"confidence":0.36421,"end":2.8,"word":"tế"},{"beg":3.0,"confidence":0.36421,"end":3.08,"word":"và"},{"beg":3.2,"confidence":0.36421,"end":3.28,"word":"quan"},{"beg":3.36,"confidence":0.36421,"end":3.44,"word":"sát"},{"beg":3.6,"confidence":0.36421,"end":3.68,"word":"trên"},{"beg":3.8,"confidence":0.36421,"end":3.84,"word":"ảnh"},{"beg":4.04,"confidence":0.36421,"end":4.12,"word":"may"},{"beg":4.2,"confidence":0.36421,"end":4.28,"word":"vệ"},{"beg":4.4,"confidence":0.36421,"end":4.48,"word":"tên"},{"beg":4.6,"confidence":0.36421,"end":4.68,"word":"hồng"},{"beg":4.8,"confidence":0.36421,"end":4.88,"word":"ngoại"},{"beg":5.28,"confidence":0.36421,"end":5.36,"word":"có"},{"beg":5.44,"confidence":0.36421,"end":5.52,"word":"thể"},{"beg":5.6,"confidence":0.36421,"end":5.68,"word":"thấy"},{"beg":5.8,"confidence":0.36421,"end":5.92,"word":"mắt"},{"beg":6.0,"confidence":0.36421,"end":6.16,"word":"siêu"},{"beg":6.24,"confidence":0.36421,"end":6.32,"word":"bảo"},{"beg":6.44,"confidence":0.36421,"end":6.52,"word":"số"},{"beg":6.64,"confidence":0.36421,"end":6.72,"word":"ba"},{"beg":6.8,"confidence":0.36421,"end":7.2,"word":"ag"},{"beg":7.28,"confidence":0.36421,"end":7.4,"word":"vẫn"},{"beg":7.44,"confidence":0.36421,"end":7.52,"word":"đang"},{"beg":7.64,"confidence":0.36421,"end":7.72,"word":"cực"},{"beg":7.76,"confidence":0.36421,"end":7.84,"word":"kỳ"},{"beg":8.0,"confidence":0.36421,"end":8.08,"word":"sắc"},{"beg":8.2,"confidence":0.36421,"end":8.28,"word":"nét"},{"beg":8.48,"confidence":0.36421,"end":8.56,"word":"với"},{"beg":8.64,"confidence":0.36421,"end":8.72,"word":"đối"},{"beg":8.8,"confidence":0.36421,"end":8.88,"word":"lưu"},{"beg":9.0,"confidence":0.36421,"end":9.12,"word":"xung"},{"beg":9.24,"confidence":0.36421,"end":9.32,"word":"quan"},{"beg":9.44,"confidence":0.36421,"end":9.52,"word":"tâm"},{"beg":9.64,"confidence":0.36421,"end":9.72,"word":"bảo"},{"beg":9.88,"confidence":0.36421,"end":9.96,"word":"diễn"},{"beg":10.08,"confidence":0.36421,"end":10.16,"word":"ra"},{"beg":10.28,"confidence":0.36421,"end":10.36,"word":"vô"},{"beg":10.48,"confidence":0.36421,"end":10.56,"word":"cùng"},{"beg":10.64,"confidence":0.36421,"end":10.72,"word":"mạnh"},{"beg":10.8,"confidence":0.36421,"end":10.88,"word":"mẽ"},{"beg":11.32,"confidence":0.36421,"end":11.4,"word":"theo"},{"beg":11.52,"confidence":0.36421,"end":11.6,"word":"trung"},{"beg":11.68,"confidence":0.36421,"end":11.76,"word":"tâm"},{"beg":11.88,"confidence":0.36421,"end":11.96,"word":"cảnh"},{"beg":12.04,"confidence":0.36421,"end":12.12,"word":"báo"},{"beg":12.32,"confidence":0.36421,"end":12.4,"word":"bảo"},{"beg":12.52,"confidence":0.36421,"end":12.6,"word":"liên"},{"beg":12.72,"confidence":0.36421,"end":12.8,"word":"hợp"},{"beg":12.92,"confidence":0.36421,"end":13.0,"word":"mỹ"},{"beg":13.36,"confidence":0.36421,"end":14.4,"word":"tc"}],"utt":null,"confidence":0.36421,"segment":[0.02,14.7],"speaker_id":null,"speaker_name":null,"speaker_undefined_id":0,"speaker_confidence":0},{"transcript":"Sức gió của bão đã mạnh lên lại 240 km trên giờ giọt 280 km trên giờ trong những cơn bão mạnh, mắt bão có đặc điểm hoang may và gió nhẹ bao khắp xung quanh là một thành mắt bão cao và đối xứng sáng nay.","word_alignment":[{"beg":0.08,"confidence":0.39281,"end":0.16,"word":"sức"},{"beg":0.24,"confidence":0.39281,"end":0.36,"word":"gió"},{"beg":0.48,"confidence":0.39281,"end":0.56,"word":"của"},{"beg":0.64,"confidence":0.39281,"end":0.72,"word":"bão"},{"beg":0.84,"confidence":0.39281,"end":0.92,"word":"đã"},{"beg":1.0,"confidence":0.39281,"end":1.08,"word":"mạnh"},{"beg":1.2,"confidence":0.39281,"end":1.28,"word":"lên"},{"beg":1.36,"confidence":0.39281,"end":1.44,"word":"lại"},{"beg":1.56,"confidence":0.39281,"end":1.64,"word":"hai"},{"beg":1.72,"confidence":0.39281,"end":1.8,"word":"trăm"},{"beg":1.84,"confidence":0.39281,"end":1.92,"word":"bốn"},{"beg":2.0,"confidence":0.39281,"end":2.08,"word":"mươi"},{"beg":2.16,"confidence":0.39281,"end":2.76,"word":"km"},{"beg":2.8,"confidence":0.39281,"end":2.92,"word":"trên"},{"beg":3.0,"confidence":0.39281,"end":3.08,"word":"giờ"},{"beg":3.48,"confidence":0.39281,"end":3.56,"word":"giọt"},{"beg":3.72,"confidence":0.39281,"end":3.8,"word":"hai"},{"beg":3.84,"confidence":0.39281,"end":3.92,"word":"trăm"},{"beg":4.04,"confidence":0.39281,"end":4.12,"word":"tám"},{"beg":4.2,"confidence":0.39281,"end":4.28,"word":"mươi"},{"beg":4.32,"confidence":0.39281,"end":4.96,"word":"km"},{"beg":5.0,"confidence":0.39281,"end":5.08,"word":"trên"},{"beg":5.16,"confidence":0.39281,"end":5.24,"word":"giờ"},{"beg":5.68,"confidence":0.39281,"end":5.76,"word":"trong"},{"beg":5.84,"confidence":0.39281,"end":5.92,"word":"những"},{"beg":6.04,"confidence":0.39281,"end":6.12,"word":"cơn"},{"beg":6.28,"confidence":0.39281,"end":6.36,"word":"bão"},{"beg":6.48,"confidence":0.39281,"end":6.56,"word":"mạnh"},{"beg":6.96,"confidence":0.39281,"end":7.04,"word":"mắt"},{"beg":7.16,"confidence":0.39281,"end":7.24,"word":"bão"},{"beg":7.36,"confidence":0.39281,"end":7.44,"word":"có"},{"beg":7.52,"confidence":0.39281,"end":7.6,"word":"đặc"},{"beg":7.68,"confidence":0.39281,"end":7.76,"word":"điểm"},{"beg":7.92,"confidence":0.39281,"end":8.0,"word":"hoang"},{"beg":8.12,"confidence":0.39281,"end":8.2,"word":"may"},{"beg":8.4,"confidence":0.39281,"end":8.48,"word":"và"},{"beg":8.6,"confidence":0.39281,"end":8.68,"word":"gió"},{"beg":8.84,"confidence":0.39281,"end":8.92,"word":"nhẹ"},{"beg":9.32,"confidence":0.39281,"end":9.4,"word":"bao"},{"beg":9.52,"confidence":0.39281,"end":9.6,"word":"khắp"},{"beg":9.76,"confidence":0.39281,"end":9.84,"word":"xung"},{"beg":9.96,"confidence":0.39281,"end":10.04,"word":"quanh"},{"beg":10.2,"confidence":0.39281,"end":10.28,"word":"là"},{"beg":10.32,"confidence":0.39281,"end":10.4,"word":"một"},{"beg":10.48,"confidence":0.39281,"end":10.6,"word":"thành"},{"beg":10.68,"confidence":0.39281,"end":10.76,"word":"mắt"},{"beg":10.88,"confidence":0.39281,"end":10.96,"word":"bão"},{"beg":11.12,"confidence":0.39281,"end":11.2,"word":"cao"},{"beg":11.36,"confidence":0.39281,"end":11.44,"word":"và"},{"beg":11.56,"confidence":0.39281,"end":11.64,"word":"đối"},{"beg":11.72,"confidence":0.39281,"end":11.8,"word":"xứng"},{"beg":12.4,"confidence":0.39281,"end":12.48,"word":"sáng"},{"beg":12.6,"confidence":0.39281,"end":12.68,"word":"nay"}],"utt":null,"confidence":0.39281,"segment":[14.7,27.75],"speaker_id":null,"speaker_name":null,"speaker_undefined_id":0,"speaker_confidence":0},{"transcript":"Quan sát trên. Ảnh May vệ tinh hồng ngoại Có thể thấy rõ rìa Hoàng lô xa phía Tây của siêu bảo đã bao trường gần như toàn bộ khu vực vận Bắc Bộ, vùng biển Trung Trung Bộ và một phần vay biển đất liền các tỉnh phía Bắc và Bắc miền Trung Việt Nam.","word_alignment":[{"beg":0.04,"confidence":0.36741,"end":0.12,"word":"quan"},{"beg":0.2,"confidence":0.36741,"end":0.28,"word":"sát"},{"beg":0.4,"confidence":0.36741,"end":0.48,"word":"trên"},{"beg":0.6,"confidence":0.36741,"end":0.64,"word":"ảnh"},{"beg":0.76,"confidence":0.36741,"end":0.84,"word":"may"},{"beg":0.92,"confidence":0.36741,"end":1.0,"word":"vệ"},{"beg":1.08,"confidence":0.36741,"end":1.16,"word":"tinh"},{"beg":1.32,"confidence":0.36741,"end":1.4,"word":"hồng"},{"beg":1.52,"confidence":0.36741,"end":1.6,"word":"ngoại"},{"beg":1.76,"confidence":0.36741,"end":1.84,"word":"có"},{"beg":1.88,"confidence":0.36741,"end":1.96,"word":"thể"},{"beg":2.08,"confidence":0.36741,"end":2.16,"word":"thấy"},{"beg":2.24,"confidence":0.36741,"end":2.32,"word":"rõ"},{"beg":2.52,"confidence":0.36741,"end":2.6,"word":"rìa"},{"beg":2.72,"confidence":0.36741,"end":2.84,"word":"hoàng"},{"beg":2.96,"confidence":0.36741,"end":3.08,"word":"lô"},{"beg":3.12,"confidence":0.36741,"end":3.28,"word":"xa"},{"beg":3.4,"confidence":0.36741,"end":3.48,"word":"phía"},{"beg":3.56,"confidence":0.36741,"end":3.64,"word":"tây"},{"beg":3.8,"confidence":0.36741,"end":3.88,"word":"của"},{"beg":3.96,"confidence":0.36741,"end":4.04,"word":"siêu"},{"beg":4.2,"confidence":0.36741,"end":4.28,"word":"bảo"},{"beg":4.4,"confidence":0.36741,"end":4.48,"word":"đã"},{"beg":4.6,"confidence":0.36741,"end":4.68,"word":"bao"},{"beg":4.76,"confidence":0.36741,"end":4.84,"word":"trường"},{"beg":5.0,"confidence":0.36741,"end":5.08,"word":"gần"},{"beg":5.16,"confidence":0.36741,"end":5.24,"word":"như"},{"beg":5.4,"confidence":0.36741,"end":5.48,"word":"toàn"},{"beg":5.56,"confidence":0.36741,"end":5.64,"word":"bộ"},{"beg":5.76,"confidence":0.36741,"end":5.88,"word":"khu"},{"beg":5.92,"confidence":0.36741,"end":6.0,"word":"vực"},{"beg":6.12,"confidence":0.36741,"end":6.2,"word":"vận"},{"beg":6.36,"confidence":0.36741,"end":6.44,"word":"bắc"},{"beg":6.52,"confidence":0.36741,"end":6.6,"word":"bộ"},{"beg":7.08,"confidence":0.36741,"end":7.16,"word":"vùng"},{"beg":7.28,"confidence":0.36741,"end":7.36,"word":"biển"},{"beg":7.48,"confidence":0.36741,"end":7.56,"word":"trung"},{"beg":7.68,"confidence":0.36741,"end":7.8,"word":"trung"},{"beg":7.88,"confidence":0.36741,"end":7.96,"word":"bộ"},{"beg":8.16,"confidence":0.36741,"end":8.24,"word":"và"},{"beg":8.32,"confidence":0.36741,"end":8.4,"word":"một"},{"beg":8.48,"confidence":0.36741,"end":8.56,"word":"phần"},{"beg":8.68,"confidence":0.36741,"end":8.76,"word":"vay"},{"beg":8.88,"confidence":0.36741,"end":8.96,"word":"biển"},{"beg":9.08,"confidence":0.36741,"end":9.16,"word":"đất"},{"beg":9.24,"confidence":0.36741,"end":9.32,"word":"liền"},{"beg":9.44,"confidence":0.36741,"end":9.52,"word":"các"},{"beg":9.64,"confidence":0.36741,"end":9.72,"word":"tỉnh"},{"beg":9.8,"confidence":0.36741,"end":9.92,"word":"phía"},{"beg":10.0,"confidence":0.36741,"end":10.08,"word":"bắc"},{"beg":10.24,"confidence":0.36741,"end":10.32,"word":"và"},{"beg":10.4,"confidence":0.36741,"end":10.48,"word":"bắc"},{"beg":10.6,"confidence":0.36741,"end":10.68,"word":"miền"},{"beg":10.8,"confidence":0.36741,"end":10.88,"word":"trung"},{"beg":11.04,"confidence":0.36741,"end":11.12,"word":"việt"},{"beg":11.16,"confidence":0.36741,"end":11.24,"word":"nam"}],"utt":null,"confidence":0.36741,"segment":[27.75,39.34],"speaker_id":null,"speaker_name":null,"speaker_undefined_id":0,"speaker_confidence":0}]}}[2024-09-06 14:00:11 +0700] [6227] [INFO] Starting gunicorn 22.0.0
+[2024-09-06 14:00:11 +0700] [6227] [INFO] Listening at: unix:/home/khanhvo/speech_and_text/myproject.sock (6227)
+[2024-09-06 14:00:11 +0700] [6227] [INFO] Using worker: sync
+[2024-09-06 14:00:11 +0700] [6228] [INFO] Booting worker with pid: 6228
+[2024-09-06 14:00:11 +0700] [6229] [INFO] Booting worker with pid: 6229
+[2024-09-06 14:00:11 +0700] [6230] [INFO] Booting worker with pid: 6230
+[2024-09-06 14:00:24 +0700] [6227] [INFO] Handling signal: hup
+[2024-09-06 14:00:24 +0700] [6227] [INFO] Hang up: Master
+[2024-09-06 14:00:24 +0700] [6227] [ERROR] Worker (pid:6230) was sent SIGHUP!
+[2024-09-06 14:00:24 +0700] [6227] [ERROR] Worker (pid:6229) was sent SIGHUP!
+[2024-09-06 14:00:24 +0700] [6227] [ERROR] Worker (pid:6228) was sent SIGHUP!
+[2024-09-06 14:00:24 +0700] [6231] [INFO] Booting worker with pid: 6231
+[2024-09-06 14:00:24 +0700] [6232] [INFO] Booting worker with pid: 6232
+[2024-09-06 14:00:24 +0700] [6233] [INFO] Booting worker with pid: 6233
+[2024-09-06 15:24:32 +0700] [6368] [INFO] Starting gunicorn 20.1.0
+[2024-09-06 15:24:32 +0700] [6368] [INFO] Listening at: unix:/home/khanhvo/speech_and_text/myproject.sock (6368)
+[2024-09-06 15:24:32 +0700] [6368] [INFO] Using worker: sync
+[2024-09-06 15:24:32 +0700] [6369] [INFO] Booting worker with pid: 6369
+[2024-09-06 15:24:32 +0700] [6370] [INFO] Booting worker with pid: 6370
+[2024-09-06 15:24:32 +0700] [6371] [INFO] Booting worker with pid: 6371
+[2024-09-06 15:28:01 +0700] [6396] [INFO] Starting gunicorn 20.1.0
+[2024-09-06 15:28:01 +0700] [6396] [INFO] Listening at: unix:/home/khanhvo/speech_and_text/myproject.sock (6396)
+[2024-09-06 15:28:01 +0700] [6396] [INFO] Using worker: sync
+[2024-09-06 15:28:01 +0700] [6397] [INFO] Booting worker with pid: 6397
+[2024-09-06 15:28:02 +0700] [6398] [INFO] Booting worker with pid: 6398
+[2024-09-06 15:28:02 +0700] [6399] [INFO] Booting worker with pid: 6399
+[2024-09-06 15:28:07 +0700] [6396] [INFO] Handling signal: hup
+[2024-09-06 15:28:07 +0700] [6396] [INFO] Hang up: Master
+[2024-09-06 15:28:07 +0700] [6368] [INFO] Handling signal: hup
+[2024-09-06 15:28:07 +0700] [6368] [INFO] Hang up: Master
+[2024-09-06 15:28:07 +0700] [6421] [INFO] Booting worker with pid: 6421
+[2024-09-06 15:28:07 +0700] [6422] [INFO] Booting worker with pid: 6422
+[2024-09-06 15:28:07 +0700] [6396] [WARNING] Worker with pid 6399 was terminated due to signal 1
+[2024-09-06 15:28:07 +0700] [6423] [INFO] Booting worker with pid: 6423
+[2024-09-06 15:28:07 +0700] [6368] [WARNING] Worker with pid 6370 was terminated due to signal 1
+[2024-09-06 15:28:07 +0700] [6368] [WARNING] Worker with pid 6371 was terminated due to signal 1
+[2024-09-06 15:28:07 +0700] [6424] [INFO] Booting worker with pid: 6424
+[2024-09-06 15:28:07 +0700] [6396] [WARNING] Worker with pid 6397 was terminated due to signal 1
+[2024-09-06 15:28:07 +0700] [6425] [INFO] Booting worker with pid: 6425
+[2024-09-06 15:28:07 +0700] [6426] [INFO] Booting worker with pid: 6426
+[2024-09-06 15:28:07 +0700] [6368] [WARNING] Worker with pid 6369 was terminated due to signal 1
+[2024-09-06 15:28:07 +0700] [6396] [WARNING] Worker with pid 6398 was terminated due to signal 1
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 15:30:13,901] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 15:31:55,498] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 15:52:25,250] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 15:55:08,974] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:28:01,050] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:28:16,748] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:28:30,023] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:28:43,305] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:29:03,791] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 16:29:20,912] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+[2024-09-06 16:29:30,080] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+/home/khanhvo/speech_and_text/app.py:188: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+[2024-09-06 18:25:47,691] ERROR in app: Exception on /create_broadcast_schedule [POST]
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/khanhvo/speech_and_text/app.py", line 146, in create_broadcast_schedule
+    save_schedule_to_excel(schedule, output_path)
+  File "/home/khanhvo/speech_and_text/app.py", line 188, in save_schedule_to_excel
+    df['ngày_giờ'] = pd.to_datetime(df['ngày_giờ'])
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/tools/datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2024-09-07 00h30::00, at position 0
+[2024-09-15 15:36:47 +0700] [6231] [INFO] Worker exiting (pid: 6231)
+History: [{'input': 'Chuyển đổi Văn bản thành Giọng nói\r\n', 'output': 'tts_e3a9ef90-6501-43e3-8b79-c53059f8790d.mp3'}, {'input': 'Chuyển đổi Văn bản thành Giọng nói\r\n', 'output': 'tts_737d40ce-6f2b-421e-ad4a-4c5bbb8f5170.mp3'}]
+Mã trạng thái: 200
+Phản hồi đầy đủ từ API:
+{"code":200,"message":"OK","response":{"result":[{"transcript":"Đây là giọng một.","word_alignment":[{"beg":0.12,"confidence":0.48007,"end":0.2,"word":"đây"},{"beg":0.28,"confidence":0.48007,"end":0.36,"word":"là"},{"beg":0.48,"confidence":0.48007,"end":0.56,"word":"giọng"},{"beg":0.72,"confidence":0.48007,"end":0.8,"word":"một"}],"utt":null,"confidence":0.48007,"segment":[0.02,1.09],"speaker_id":null,"speaker_name":null,"speaker_undefined_id":0,"speaker_confidence":0}]}}
+Độ dài transcript: 17 ký tự
+[2024-09-15 15:36:47 +0700] [5700] [INFO] Handling signal: term
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+[2024-09-15 15:36:47 +0700] [6368] [INFO] Handling signal: hup
+[2024-09-15 15:36:47 +0700] [6368] [INFO] Hang up: Master
+[2024-09-15 15:36:47 +0700] [6227] [INFO] Handling signal: hup
+[2024-09-15 15:36:47 +0700] [6227] [INFO] Hang up: Master
+    handler()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 382, in stop
+    sock.close_sockets(self.LISTENERS, unlink)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/sock.py", line 212, in close_sockets
+    os.unlink(sock_name)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/khanhvo/speech_and_text/myproject.sock'
+[2024-09-15 15:36:47 +0700] [6396] [INFO] Handling signal: hup
+[2024-09-15 15:36:47 +0700] [6396] [INFO] Hang up: Master
+[2024-09-15 15:36:47 +0700] [5700] [WARNING] Worker with pid 5705 was terminated due to signal 1
+[2024-09-15 15:36:47 +0700] [6227] [ERROR] Worker (pid:6231) was sent SIGHUP!
+[2024-09-15 15:36:47 +0700] [6227] [ERROR] Worker (pid:6232) was sent SIGHUP!
+[2024-09-15 15:36:47 +0700] [6227] [ERROR] Worker (pid:6233) was sent SIGHUP!
+[2024-09-15 15:36:47 +0700] [6368] [WARNING] Worker with pid 6426 was terminated due to signal 1
+[2024-09-15 15:36:47 +0700] [46011] [INFO] Booting worker with pid: 46011
+[2024-09-15 15:36:47 +0700] [46021] [INFO] Booting worker with pid: 46021
+[2024-09-15 15:36:47 +0700] [46022] [INFO] Booting worker with pid: 46022
+[2024-09-15 15:36:48 +0700] [6368] [INFO] Handling signal: term
+[2024-09-15 15:36:48 +0700] [46030] [INFO] Booting worker with pid: 46030
+[2024-09-15 15:36:48 +0700] [46023] [INFO] Booting worker with pid: 46023
+[2024-09-15 15:36:48 +0700] [6396] [WARNING] Worker with pid 6421 was terminated due to signal 1
+[2024-09-15 15:36:48 +0700] [46027] [INFO] Booting worker with pid: 46027
+[2024-09-15 15:36:48 +0700] [6396] [WARNING] Worker with pid 6423 was terminated due to signal 1
+[2024-09-15 15:36:48 +0700] [6396] [INFO] Handling signal: term
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+[2024-09-15 15:36:48 +0700] [6368] [WARNING] Worker with pid 6424 was terminated due to signal 1
+[2024-09-15 15:36:48 +0700] [46028] [INFO] Booting worker with pid: 46028
+Traceback (most recent call last):
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 382, in stop
+    sock.close_sockets(self.LISTENERS, unlink)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/sock.py", line 212, in close_sockets
+    os.unlink(sock_name)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/khanhvo/speech_and_text/myproject.sock'
+[2024-09-15 15:36:48 +0700] [6227] [INFO] Handling signal: term
+[2024-09-15 15:36:48 +0700] [46032] [INFO] Booting worker with pid: 46032
+    handler()
+[2024-09-15 15:36:48 +0700] [46029] [INFO] Booting worker with pid: 46029
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khanhvo/speech_and_text/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 382, in stop
+    sock.close_sockets(self.LISTENERS, unlink)
+  File "/home/khanhvo/speech_and_text/venv/lib/python3.10/site-packages/gunicorn/sock.py", line 212, in close_sockets
+    os.unlink(sock_name)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/khanhvo/speech_and_text/myproject.sock'
+Traceback (most recent call last):
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 33, in <module>
+    sys.exit(load_entry_point('gunicorn==20.1.0', 'console_scripts', 'gunicorn')())
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/arbiter.py", line 385, in stop
+    sock.close_sockets(self.LISTENERS, unlink)
+  File "/home/khanhvo/.local/lib/python3.10/site-packages/gunicorn/sock.py", line 213, in close_sockets
+    os.unlink(sock_name)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/khanhvo/speech_and_text/myproject.sock'
+[2024-09-15 15:36:49 +0700] [46027] [INFO] Parent changed, shutting down: <Worker 46027>
+[2024-09-15 15:36:49 +0700] [46027] [INFO] Worker exiting (pid: 46027)
+[2024-09-15 15:36:49 +0700] [46011] [INFO] Parent changed, shutting down: <Worker 46011>
+[2024-09-15 15:36:49 +0700] [46011] [INFO] Worker exiting (pid: 46011)
+[2024-09-15 15:36:49 +0700] [46030] [INFO] Parent changed, shutting down: <Worker 46030>
+[2024-09-15 15:36:49 +0700] [46030] [INFO] Worker exiting (pid: 46030)
+[2024-09-15 15:36:49 +0700] [46023] [INFO] Parent changed, shutting down: <Worker 46023>
+[2024-09-15 15:36:49 +0700] [46023] [INFO] Worker exiting (pid: 46023)
+[2024-09-15 15:36:49 +0700] [46021] [INFO] Parent changed, shutting down: <Worker 46021>
+[2024-09-15 15:36:49 +0700] [46021] [INFO] Worker exiting (pid: 46021)
+[2024-09-15 15:36:49 +0700] [46029] [INFO] Parent changed, shutting down: <Worker 46029>
+[2024-09-15 15:36:49 +0700] [46029] [INFO] Worker exiting (pid: 46029)
+[2024-09-15 15:36:50 +0700] [46028] [INFO] Parent changed, shutting down: <Worker 46028>
+[2024-09-15 15:36:50 +0700] [46028] [INFO] Worker exiting (pid: 46028)
+[2024-09-15 15:36:50 +0700] [46032] [INFO] Parent changed, shutting down: <Worker 46032>
+[2024-09-15 15:36:50 +0700] [46032] [INFO] Worker exiting (pid: 46032)
+[2024-09-15 15:36:50 +0700] [46022] [INFO] Parent changed, shutting down: <Worker 46022>
+[2024-09-15 15:36:50 +0700] [46022] [INFO] Worker exiting (pid: 46022)

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8800:8800"
+    volumes:
+      - .:/app  # Ánh xạ thư mục hiện tại vào /app trong container
+    environment:
+      - FLASK_ENV=development  # Đặt chế độ phát triển
