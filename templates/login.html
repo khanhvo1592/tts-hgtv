@@ -1,16 +1,8 @@
 {% extends "base.html" %}
-{% set show_navbar = false %}
 
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+{% block title %}HGTV-Digital - Đăng nhập{% endblock %}
+
+{% block content %}
     <div class="container mt-2">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -39,11 +31,7 @@
                         {% endwith %}
                     </div>
                 </div>
-                <p class="text-center mt-3">
-                    <a href="{{ url_for('register') }}">Chưa có tài khoản? Đăng ký ngay!</a>
-                </p>
             </div>
         </div>
     </div>
-</body>
-</html> 
+{% endblock %} 

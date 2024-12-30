@@ -1,3 +1,61 @@
 run docker
 docker compose up -d
 
+docker compose build
+
+
+# Kiểm tra phiên bản Docker
+docker --version
+
+# Tải một hình ảnh Docker từ Docker Hub
+docker pull <tên_hình_ảnh>
+
+# Liệt kê tất cả các hình ảnh Docker trên máy
+docker images
+
+# Chạy một container từ một hình ảnh
+docker run <tên_hình_ảnh>
+
+# Liệt kê tất cả các container đang chạy
+docker ps
+
+# Liệt kê tất cả các container (bao gồm cả container đã dừng)
+docker ps -a
+
+# Dừng một container đang chạy
+docker stop <tên_hoặc_id_container>
+
+# Xóa một container
+docker rm <tên_hoặc_id_container>
+
+# Xóa một hình ảnh Docker
+docker rmi <tên_hình_ảnh>
+
+# Xem log của một container
+docker logs <tên_hoặc_id_container>
+
+# Truy cập vào shell của một container đang chạy
+docker exec -it <tên_hoặc_id_container> /bin/bash
+
+# Build image
+docker build -t <tên_hình_ảnh> .
+
+# Run container
+docker run -d -p 8080:8080 <tên_hình_ảnh>
+
+# Run docker compose
+docker-compose up --build -d
+
+# Stop docker compose
+docker-compose down
+
+# Run script
+bash start_app.sh
+
+# Run script in docker
+docker exec -it <tên_hoặc_id_container> /bin/bash -c "bash start_app.sh"
+
+# Run script in docker compose
+docker-compose exec <tên_dịch_vụ> /bin/bash -c "bash start_app.sh"
+
+
